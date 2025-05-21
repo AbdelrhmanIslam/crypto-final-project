@@ -162,7 +162,7 @@ Final project submission — educational use only.
 
 **📧 Email:** abdelrhman.islam04@gmail.com 
 
-**🔗 GitHub:** [github.com/AbdelrhmanIslam](github.com/AbdelrhmanIslam)
+**🔗 [LinkedIn](https://www.linkedin.com/in/abdelrhman-islam)
 **🐙 [GitHub](https://github.com/AbdelrhmanIslam)
 
 Feel free to connect and check out my other projects and my aacounts❤😘!
