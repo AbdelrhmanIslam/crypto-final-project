@@ -51,6 +51,23 @@ It consists of **multiple encryption algorithms**, organized into different tool
 
 ---
 
+## 🚀 more about project
+
+- Multiple classical algorithms:
+  - Caesar Cipher
+  - Playfair Cipher
+  - Vigenère Cipher
+  - Columnar Transposition (Row-Column)
+  - Monoalphabetic Cipher
+  - Rail Fence Cipher (Zigzag)
+
+- Multi-layer encryption/decryption.
+- Material-style modern GUI with `ttkbootstrap`.
+- Step-by-step result explanation.
+- Supports English input only for cleaner processing.
+
+---
+
 ## 🖼️ Interface Preview
 
 <img src="demo.png" alt="App Screenshot" width="700"/>
@@ -121,7 +138,10 @@ Install it via:
 ```bash
 pip install ttkbootstrap
 
+```
+
 ---
+
 
 ## 🎓 Educational Purpose
 
@@ -135,3 +155,18 @@ Built with love for cryptography and Python GUI design.
 Final project submission — educational use only.
 
 ---
+
+## 📬 Contact
+
+**👤 Name:** Abdelrhman Islam  
+
+**📧 Email:** abdelrhman.islam04@gmail.com 
+
+**🔗 GitHub:** [github.com/AbdelrhmanIslam](github.com/AbdelrhmanIslam)
+**🐙 [GitHub](https://github.com/AbdelrhmanIslam)
+
+Feel free to connect and check out my other projects and my aacounts❤😘!
+
+---
+
+> ✨ *"ABDELRHMAN  – ISLAM"* ✨
