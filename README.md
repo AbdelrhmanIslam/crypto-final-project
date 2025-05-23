@@ -30,7 +30,10 @@ It consists of **multiple encryption algorithms**, organized into different tool
 ├── main.py            # Main menu GUI to access tools
 ├── final_project.py   # Multi-layer encryption/decryption tool
 ├── SDES.py            # Simplified DES encryption tool
-└── AES.py             # AES-128 encryption/decryption with GUI
+├── AES.py             # Advanced AES encryption tool
+├── .vscode            # VSCode settings
+├── README.md          # Project README
+└── demo.png           # Demo image
 ```
 
 ---
