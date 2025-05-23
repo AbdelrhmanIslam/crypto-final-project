@@ -29,7 +29,8 @@ It consists of **multiple encryption algorithms**, organized into different tool
 .
 ├── main.py            # Main menu GUI to access tools
 ├── final_project.py   # Multi-layer encryption/decryption tool
-└── SDES.py            # Simplified DES encryption tool
+├── SDES.py            # Simplified DES encryption tool
+└── AES.py             # AES-128 encryption/decryption with GUI
 ```
 
 ---
@@ -49,9 +50,19 @@ It consists of **multiple encryption algorithms**, organized into different tool
   - Includes key scheduling, S-box operations, permutations
   - Full round-by-round logging
 
+### In `AES.py`:
+- AES-128 (Advanced Encryption Standard)
+  - Full encryption/decryption implementation with SubBytes, ShiftRows, MixColumns, and AddRoundKey
+  - Interactive GUI to:
+    - Enter a 16-character key
+    - Type plaintext and encrypt to hex
+    - Paste ciphertext (hex) manually and decrypt
+    - Reset all fields (preserves the key)
+  - GUI built with `ttkbootstrap` and `tkinter`
+
 ---
 
-## 🚀 more about project
+## 🚀 More About Project
 
 - Multiple classical algorithms:
   - Caesar Cipher
@@ -62,6 +73,7 @@ It consists of **multiple encryption algorithms**, organized into different tool
   - Rail Fence Cipher (Zigzag)
 
 - Multi-layer encryption/decryption.
+- AES-128 for strong modern encryption.
 - Material-style modern GUI with `ttkbootstrap`.
 - Step-by-step result explanation.
 - Supports English input only for cleaner processing.
@@ -72,8 +84,8 @@ It consists of **multiple encryption algorithms**, organized into different tool
 
 <img src="demo.png" alt="App Screenshot" width="700"/>
 
-
 ---
+
 ### 🧭 Main Menu (`main.py`)
 Allows the user to launch the SDES tool or the final encryption tool.
 
@@ -86,6 +98,12 @@ Allows the user to launch the SDES tool or the final encryption tool.
 - Binary/hex/text key input
 - Full encryption/decryption based on Mini DES logic
 - Output includes intermediate rounds and swaps
+
+### 🧿 AES Tool (`AES.py`)
+- Standalone app for AES-128 encryption and decryption
+- Built from scratch using AES internals: S-Boxes, rounds, padding
+- Encrypts plain text and decrypts hex manually or from output
+- Real-time GUI interaction for input, output, and key
 
 ---
 
@@ -100,7 +118,7 @@ pip install ttkbootstrap
 Then simply run:
 
 ```bash
-python main.py
+python main.py  # or AES.py for standalone AES
 ```
 
 ## 🧠 How to Use
@@ -125,6 +143,7 @@ python main.py
 | Playfair         | Alphabetic   |
 | Vigenère         | Alphabetic   |
 | Monoalphabetic   | No key (auto-generated) |
+| AES              | Exactly 16 characters (ASCII) |
 
 ---
 
@@ -137,15 +156,13 @@ Install it via:
 
 ```bash
 pip install ttkbootstrap
-
 ```
 
 ---
 
-
 ## 🎓 Educational Purpose
 
-This project was built for learning and demonstration purposes. It's perfect for understanding how classical ciphers and simplified DES work under the hood — all wrapped in a clean, interactive GUI.
+This project was built for learning and demonstration purposes. It's perfect for understanding how classical ciphers, simplified DES, and AES work under the hood — all wrapped in a clean, interactive GUI.
 
 ---
 
